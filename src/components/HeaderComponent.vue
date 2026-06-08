@@ -20,10 +20,9 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref } from 'vue'
 
 const isMenuOpen = ref(false)
-const isScrolled = ref(false)
 
 function toggleMenu() {
     isMenuOpen.value = !isMenuOpen.value
