@@ -12,7 +12,7 @@
         <nav :class="{ open: isMenuOpen }">
             <RouterLink @click="closeMenu" to="/">HOME</RouterLink>
             <RouterLink @click="closeMenu" to="/solutions">SOLUTIONS</RouterLink>
-            <RouterLink @click="closeMenu" to="/about">ABOUT US</RouterLink>
+            <RouterLink @click="closeMenu" to="/aboutus">ABOUT US</RouterLink>
             <RouterLink @click="closeMenu" to="/contacts">CONTACTS</RouterLink>
         </nav>
 
